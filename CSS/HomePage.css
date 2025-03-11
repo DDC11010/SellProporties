@@ -102,7 +102,7 @@ body {
 /* advertiseBoard ads*/
 /* Parent container */
 #advertiseBoard {
-  background-image: url("./Content/ads/Discount.png");
+  background-image: url("Content/ads/Discount.png");
   background-color: #cccccc;
   height: 500px;
   background-position: center;
