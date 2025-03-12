@@ -2,11 +2,6 @@
 * {
   box-sizing: border-box;
 }
-.logo img {
-
-  position: relative;
-  right: 20px;
-}
 /* Body Styling */
 body {
   font-family: Arial, sans-serif;
@@ -21,6 +16,19 @@ body {
 .search-container {
   left:50px;
 }
+
+
+.logo img {
+
+  position: relative;
+  right: 20px;
+}
+.login-button{
+  position: relative;
+  left: 20px;
+}
+
+
 /* Image container */
 .container {
 width: 100%;
