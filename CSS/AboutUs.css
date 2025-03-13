@@ -54,15 +54,15 @@ body {
   flex: 1; /* Allows text to take available space */
 }
 .about-content-below {
-  margin-bottom: 50px; /* Adds space between the second image and the footer */
+  margin: 100px; /* Adds space between the second image and the footer */
 }
 
 .about-text{
-  margin: 0 150px 0 200px;
+  margin: 0 250px 0 200px;
   padding: 100px 0px;
 }
 
 .about-text-below {
-  margin: 0 150px;
+  margin: 0 250px;
   padding: 100px 0px;
 }
