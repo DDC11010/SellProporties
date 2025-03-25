@@ -124,8 +124,8 @@ document.addEventListener('DOMContentLoaded', () => {
             //[`${data.OptionName} `, data.Affordability], // Use the dynamic name here
             //['Interest Rate', data.InterestRate],
             //['Monthly Payment', data.MonthlyPayment],
-            ['Mortgage eligibility', data.MortgageEligibility],
-            ['Deposit', data.Deposit],
+            ['Future Price', data.MortgageEligibility],
+            ['Total Expences', data.Deposit],
         ];
 
         // Calculate the total revenue
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `).join('')}
             <div class="cost-item total">
-                <span class="label">Predictable Profits:</span>
+                <span class="label">Profit:</span>
                 <span class="value">£${Math.round(totalRevenue).toLocaleString()}</span>
             </div>
         `;
@@ -158,8 +158,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Define the labels for the pie chart
         const labels = [
-            'Monthly Expenses',
-            'Interest Rate',
+            'Future Price',
+            'Total Expences',
             data.OptionName, // Use the dynamic option name here
             'Deposit',
             'Monthly Payment',
